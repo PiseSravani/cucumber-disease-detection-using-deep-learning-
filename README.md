@@ -1,46 +1,40 @@
-# cucumber-disease-detection-using-deep-learning-
-Deep learning-based analysis of cucumber leaf diseases using multiple CNN models (MobileNet, ResNet, InceptionV3, and hybrid models) with performance evaluation and confusion matrices.
+# Cucumber Disease Diagnostic Lab: Guide
 
-# 🥒 Cucumber Leaf Disease Detection using Deep Learning
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://deep-learning-image-classification-by-jayanth-konanki.streamlit.app/)
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/jayanthkonanki/deep-learning-image-classification)
+[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 📌 Overview
-This project focuses on detecting and classifying cucumber leaf diseases using deep learning techniques. Multiple CNN models and hybrid architectures are implemented and compared to achieve better accuracy.
 
-## 🎯 Objective
-To develop an efficient system for identifying cucumber leaf diseases such as Downy Mildew, Powdery Mildew, Anthracnose, Leaf Miner, and Healthy leaves using image-based analysis.
+https://github.com/user-attachments/assets/86ad05f5-7a5f-4f98-ad2c-502e6623cc6e
 
-## 🧠 Models Used
-- MobileNet  
-- ResNet  
-- InceptionV3  
-- Hybrid Models (Combination of CNN architectures)
 
-## 📊 Methodology
-- Data preprocessing and image augmentation  
-- Model training using different CNN architectures  
-- Performance comparison using accuracy and confusion matrix  
-- Evaluation of hybrid models vs individual models  
+This repository contains the **Cucumber Disease Diagnostic Lab**, a deep learning-powered platform designed to identify common diseases in cucumber leaves. By utilizing state-of-the-art Convolutional Neural Networks (CNNs) and Hybrid architectures, the system provides real-time diagnostic reports and actionable treatment plans to assist in crop management.
 
-## 📈 Results
-- Achieved accurate classification of multiple cucumber leaf diseases  
-- Hybrid models showed improved performance compared to individual models  
-- Confusion matrices used for detailed evaluation  
+### Core AI Solution
+* **Disease Classification**: Identifying conditions such as Anthracnose, Bacterial Wilt, Downy Mildew, and Gummy Stem Blight.
+* **Hybrid Architectures**: Combining features from multiple backbones (e.g., ResNet50 + InceptionV3) for enhanced diagnostic accuracy.
+* **Real-time Inference**: Fast image processing and probability estimation using PyTorch.
+* **Actionable Insights**: Providing specific treatment recommendations based on the detected disease.
 
-## 🛠️ Tech Stack
-- Python  
-- TensorFlow / Keras  
-- PyTorch  
--  ResNet50,InceptionV3
--  EfficientNetB0,MobileNet  
-- NumPy, Pandas, Matplotlib  
+## 🚀 Overview
 
-## 📂 Project Files
-- `cucumber-code.ipynb` → Contains complete model training, testing, and evaluation  
+The application provides a comprehensive diagnostic workflow:
 
-## 🚀 Future Work
-- Deploy as a web application using Streamlit  
-- Real-time disease detection  
-- Extend to multiple crop disease detection  
+1.  **Architecture Selection**: Users can choose from standard models (ResNet50, InceptionV3, EfficientNetB0, MobileNet) or custom Hybrid models.
+2.  **Diagnostic Report**: Generates a high-confidence prediction, a probability distribution chart across all categories, and a guided "Action Plan" for recovery.
 
-## 📌 Conclusion
-This project demonstrates how deep learning can be effectively used in agriculture for early disease detection, helping improve crop quality and reduce losses.
+---
+
+## 🛠️ Setup Instructions
+
+### 1. Prerequisites
+
+Ensure you have Python 3.11+ installed. The system requires a `models/` directory containing `.pth` weight files for the chosen architectures.
+
+### 2. Installation
+
+Clone the repository and install the required dependencies:
+
+```bash
+pip install -r requirements.txt
