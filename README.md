@@ -1,6 +1,6 @@
 # Cucumber Disease Diagnostic Lab: Guide
 
-[![Streamlit App](https://youtu.be/egQUrT2jEbc?si=-tgXIMUC9C64uX7z)
+[![Streamlit App])
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/jayanthkonanki/deep-learning-image-classification)
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
